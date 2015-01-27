@@ -16,9 +16,13 @@
 //      End of list. Program terminating.
 // 
 #include <iostream>
-#include <time.h>
+#include <sys/time.h>
+#include <sys/resource.h>
 #include <ctime>
 #include <cstdio>
+#include <cstdlib>
+#include <unistd.h>
+#include <sys/types.h>
 
 using namespace std;
 bool doIsPrime(int num);
