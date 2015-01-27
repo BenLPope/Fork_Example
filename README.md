@@ -4,8 +4,11 @@ This program takes in 1 argument between 1 and 49 and finds the sum of the prime
 
 
 Example of program usage:
+
 a.out 2
+
 Output of example:
+
       CHILD: The sum of the first 2 prime numbers is: 5
       CHILD: My PID is 16056 and it took me 462ns
       PARENT: Child PID is 16056 and the child finished in 462ns
